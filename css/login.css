@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.image {
+  width: 70%;
+  height: 100%;
+  background-image: url("../Apresentação\ Simples\ Básica\ Elegante\ e\ Profissional\ Preto\ Branco.png");
+}
+
+.inpPrincipal {
+  width: 30%;
+  height: 100%;
+  background-color: #209696;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inpLog {
+  height: 100%;
+  width: 30%;
+  background-image: url("../Apresentação\ Simples\ Básica\ Elegante\ e\ Profissional\ Preto\ Branco\ \(2\).png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inpLogar2 {
+  width: 60%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(220, 245, 217);
+  border-radius: 3%;
+}
+
+button {
+  margin: 10px;
+  padding: 5px;
+  border: 0;
+  font-size: 16px;
+ 
+  color: #82b3fd;
+}
+button:hover{
+  background-color: #334d43;
+  font-size: 17px;
+  color:#209696 ;
+  transition: 1s;
+}
+
+
+p{
+  color: rgb(52, 51, 51);
+  font-size: 20px;
+}
+
+ a {
+  text-decoration: none;
+  color: #82b3fd;
+  font-size: 20px;
+}
+
+#todoConteudo {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+input {
+  border-top: 5px #0c333a;
+  border: 0;
+  border-bottom: 2px solid black;
+  background: none;
+}

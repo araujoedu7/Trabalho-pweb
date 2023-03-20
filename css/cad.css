@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.formCadastro{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0c333a;
+    
+}
+
+form, input{
+margin: 5px;
+background-color: whitesmoke;
+color: #0c333a;
+}
+
+form{
+    width: 30%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #209696;
+}
+
+button{
+    border-radius: 10%;
+    margin-top: 5px;
+    color: #209696;
+    background-color: #0c333a;
+}
+
+a{
+    
+    text-decoration: none;
+    margin-top: 5px;
+    font-size: 20px;
+    color: #0c333a;
+}
+
+a:hover{
+    font-size: 21px;
+    background-color: #0c333a;
+    color: whitesmoke;
+}
